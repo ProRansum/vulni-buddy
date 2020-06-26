@@ -8,7 +8,7 @@ __Chrome__: [ViolentMonkey](https://chrome.google.com/webstore/detail/violentmon
 
 ## [Getting started](#getting-started)
 - Meet requirements: [Requirements](#requirements).
-- Install script [vulni-buddy.user.js](https://github.com/ProRansum/vulni-buddy/blob/master/vulni-buddy.user.js).
+- Install script [vulni-buddy.user.js](https://github.com/ProRansum/vulni-buddy/raw/master/vulni-buddy.user.js).
 - Wait for the notification of a new published exploit to __[exploit-db](https://www.exploit-db.com/)__.
 
 ## [Versions](#versions)
