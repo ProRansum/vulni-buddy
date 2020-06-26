@@ -15,3 +15,8 @@ __Chrome__: [ViolentMonkey](https://chrome.google.com/webstore/detail/violentmon
 __Stable__: [master](https://github.com/ProRansum/vulni-buddy/tree/master)
 __Un-stable__: [dev](https://github.com/ProRansum/vulni-buddy/tree/dev)
 
+## [Notifications](#notifications)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ProRansum/vulni-buddy/master/img/vuli-buddy.png">
+</p>
