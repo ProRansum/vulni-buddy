@@ -53,13 +53,13 @@
     // console.log(records)
 
     let locals = (localStorage.getItem('vuln-buddy')) ? JSON.parse(localStorage.getItem('vuln-buddy')) : new Array()
-    let comparables = [records[0], records[1]];
+    let comparables = [records[0]];
 
     comparables.forEach(function(entry, index) {
         let author = entry.author.name;
         let publish_date = entry.date_published
         let description = entry.description[1]
-
+        
         let code_type = new Array();
         entry.code.forEach(function(t) {
             code_type.push(t.code_type)
@@ -67,16 +67,19 @@
 
         let platform = entry.platform_id;
         let type = entry.type.display;
-
-
-
+        
+        let string = `(${publish_date})[${type} - ${platform}]: ${description} by ${author} using ${(code_type) ? code_type.join(', ') : 'not included'}`;
+        let pop = `NEW: ${string}\nLink: https://www.exploit-db.com/exploits/${entry.id}`
+        
         if (locals[index] === undefined) {
-            window.alert('new exploit')
+            window.alert(pop)
+            console.warn(pop)
         } else {
             if (locals[index].id !== entry.id) {
-                window.alert('new exploit')
+                window.alert(pop)
+                console.warn(pop)
             } else {
-                console.info(`(${publish_date})[${type} - ${platform}]: ${description} by ${author} using ${(code_type) ? code_type.join(', ') : 'not included'}`)
+                console.log(string)
             }
         }
     })
