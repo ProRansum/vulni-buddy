@@ -4,6 +4,7 @@ Monkey script that will update the user when new vulnerabilities are published t
 ## [Requirements](#requirements)
 __Firefox__
  - [ViolentMonkey](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/) or [TamperMonkey](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)
+ 
 __Chrome__
  - [ViolentMonkey](https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag?hl=en) or [TamperMonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en)
 
